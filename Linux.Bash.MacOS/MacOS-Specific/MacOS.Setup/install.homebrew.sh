@@ -1,0 +1,82 @@
+#! /usr/bin/env bash
+
+# Installs Homebrew software.
+
+if ! command -v brew > /dev/null; then
+  ruby -e "$(curl --location --fail --silent --show-error https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  export PATH="/usr/local/bin:$PATH"
+  printf "export PATH=\"/usr/local/bin:$PATH\"\n" >> $HOME/.bash_profile
+fi
+
+brew install asciinema
+brew install bash
+brew install bash-completion
+brew install bat
+brew install certbot
+brew install chruby
+brew install cloc
+brew install crystal
+brew install ctags
+brew install diff-so-fancy
+brew install direnv
+brew install duti
+brew install elm
+brew install entr
+brew install exiftool
+brew install fd
+brew install ffsend
+brew install flac
+brew install fzf
+brew install git
+brew install gpg
+brew install graphicsmagick
+brew install graphviz
+brew install hg
+brew install hr
+brew install htop
+brew install httpie
+brew install hyperfine
+brew install ioping
+brew install jq
+brew install lame
+brew install lnav
+brew install lynis
+brew install mas
+brew install mosh
+brew install namebench
+brew install ncdu
+brew install nginx
+brew install ngrep
+brew install node
+brew install noti
+brew install openssl
+brew install overmind
+brew install pandoc
+brew install parallel
+brew install peco
+brew install pgcli
+brew install pigz
+brew install postgresql
+brew install prettyping
+brew install pv
+brew install ranger
+brew install readline
+brew install reattach-to-user-namespace
+brew install redis
+brew install ruby-install
+brew install sassc
+brew install shellcheck
+brew install siege
+brew install sleepwatcher
+brew install tag
+brew install terraform
+brew install the_silver_searcher
+brew install tig
+brew install tmux
+brew install tree
+brew install vim
+brew install watch
+brew install wrk
+brew install yank
+brew install yarn
+brew install z
