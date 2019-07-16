@@ -8,6 +8,7 @@
 
 ## TODOS
 
+- Choose Framework for GUI application. 
 
 ## Roadmap
 
