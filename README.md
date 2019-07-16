@@ -11,7 +11,7 @@
 
 ## Roadmap
 
-See the open issues for a list of proposed features (and known issues).
+See the [open issues](https://github.com/austinsonger/HandyScripts/issues) for a list of proposed features (and known issues).
 
 
 ### Table of Contents
