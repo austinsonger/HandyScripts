@@ -1,0 +1,37 @@
+#! /usr/bin/env bash
+
+# Sets up and launches (if necessary) installed software.
+
+# Bash
+sudo bash -c "printf '/usr/local/bin/bash\n' >> /etc/shells"
+
+# Bash Completion
+chsh -s /usr/local/bin/bash
+
+# Homebrew
+(
+  cd /usr/local/Homebrew
+  git config --local core.hooksPath /dev/null
+)
+
+# Ruby
+printf "%s\n" "---" > "$HOME/.gemrc"
+printf "%s\n" "gem: --no-document" >> "$HOME/.gemrc"
+printf "%s\n" "$MRI" > "$HOME/.ruby-version"
+/usr/local/bin/ruby-install "ruby-$MRI"
+
+# Rust
+curl --fail --silent --show-error https://sh.rustup.rs | sh
+
+# Sublime Text
+if [ ! -e "/usr/bin/sublime" ]; then
+  sudo ln -sv "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+fi
+
+# Dotfiles
+rm -f $HOME/.bash_profile
+install_git_project "https://github.com/bkuhlmann/dotfiles.git" $REPO_DOTFILES "dotfiles" "bin/run i"
+source $HOME/.bashrc
+
+# Yarn Setup
+install_git_project "https://github.com/bkuhlmann/yarn_setup.git" $REPO_YARN_SETUP "yarn_setup" "bin/run i"
