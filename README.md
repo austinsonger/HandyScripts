@@ -1,5 +1,5 @@
 # HandyScripts
-![](https://www.askideas.com/media/49/Baby-Mr-Bean-On-Hand-Funny-Image.jpg)
+![](/img/bean.jpg)
 
 
 # Table of Contents
