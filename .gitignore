@@ -1,0 +1,12 @@
+
+._
+Ruby/Nginx Setup/._0. nginx_setup.sh
+Ruby/Nginx Setup/._1. nginx
+Ruby/Nginx Setup/._2. nginx.conf
+Ruby/Nginx Setup/._3. nginx_host.conf
+Ruby/Nginx Setup/._4. nginx_errors.conf
+Ruby/Nginx Setup/._5. deploy.rb
+Ruby/Nginx Setup/._6. production.rb
+Ruby/Nginx Setup/._7. unicorn.rb
+Ruby/Nginx Setup/._8. unicorn_init.sh
+._.gitignore
