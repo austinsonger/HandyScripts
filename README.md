@@ -22,6 +22,7 @@ See the [open issues](https://github.com/austinsonger/HandyScripts/issues) for a
 - [Command Prompt and PowerShell Scripts](/Command_Prompt_and_PowerShell)
 - [Python Scripts](https://github.com/austinsonger/HandyScripts/tree/master/Python)
 - [Hacking Scripts](/Hacking)
+- [Ruby Scripts](/Ruby)
 - [Security Lists](/SecurityLists)
-- TODO [Ruby Scripts]()
+
 
