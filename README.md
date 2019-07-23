@@ -17,9 +17,11 @@ See the [open issues](https://github.com/austinsonger/HandyScripts/issues) for a
 
 ### Table of Contents
 
-- [Unix (MacOS and Linux Scripts](https://github.com/austinsonger/HandyScripts/tree/master/Linux.Bash.MacOS)
+- [Linux](/Linux)
+- [MacOS](/MacOS)
 - [Command Prompt and PowerShell Scripts](/Command_Prompt_and_PowerShell)
 - [Python Scripts](https://github.com/austinsonger/HandyScripts/tree/master/Python)
 - [Hacking Scripts](/Hacking)
+- [Security Lists](/SecurityLists)
 - TODO [Ruby Scripts]()
 
