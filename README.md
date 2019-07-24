@@ -20,9 +20,9 @@ See the [open issues](https://github.com/austinsonger/HandyScripts/issues) for a
 - [Linux](/Linux)
 - [MacOS](/MacOS)
 - [Command Prompt and PowerShell Scripts](/Command_Prompt_and_PowerShell)
-- [Device Management Platform]()
-  - [JAMF](/JAMF)
-  - [Jumpcloud](/JC)
+- Device Management Platform
+  - JAMF
+  - [Jumpcloud](https://github.com/austinsonger/HandyScripts/tree/master/Device_Management_Platforms/JC)
 - [Python Scripts](https://github.com/austinsonger/HandyScripts/tree/master/Python)
 - [Hacking Scripts](/Hacking)
 - [Ruby Scripts](/Ruby)
