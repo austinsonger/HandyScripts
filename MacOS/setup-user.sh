@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# Jayke's Mac Setup Script for User Settings
 # Set Global Variables
 currentUser=`ls -l /dev/console | cut -d " " -f4`
 
