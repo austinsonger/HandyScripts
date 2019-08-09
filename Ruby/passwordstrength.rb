@@ -1,6 +1,6 @@
 unless ARGV[0]
     puts "You need to include a password to test."
-    puts "Usage: ruby passwordstrength.rb mySuperSecretPassword"
+    puts "Usage: ruby passwordstrength.rb SecretPassword"
     exit
   end
 
