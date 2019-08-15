@@ -1,0 +1,8 @@
+## Not So Much A Script ##
+## Restart While Holding Down
+## Command + S
+## In This mode type the following commands
+
+/sbin/fsck -fy
+/sbin/mount -uw /
+rm /var/db/.AppleSetupDone
