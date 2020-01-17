@@ -27,6 +27,6 @@ See the [open issues](https://github.com/austinsonger/HandyScripts/issues) for a
 - [Hacking Scripts](/Hacking)
 - [Ruby Scripts](/Ruby)
 - [Security Lists](/SecurityLists)
-= [Virtual Machine Post-Setups](/VirtualMachine-Setups)
+- [Virtual Machine Post-Setups](/VirtualMachine-Setups)
 
 
