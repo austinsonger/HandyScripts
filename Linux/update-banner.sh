@@ -1,12 +1,15 @@
 #!/bin/bash
 ## Login Banner Update Script
-## Inspired by https://www.daveperrett.com/articles/2007/03/27/change-the-ssh-login-message/
 ## Define Global Variables
 me=`basename "$0"`
 LOGFILE="/etc/$me.log"
 RETAIN_NUM_LINES=10
 ## --------------------- ##
-bannerSource="https://raw.githubusercontent.com/jaykepeters/UniPi/master/banners/vpn"
+bannerSource=".
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'"
 bannerConfig="/etc/ssh/sshd_config"
 LINE1="# SSH Login Message"
 LINE2="Banner /etc/banner"
